@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+
+    <title> my movie list</title>
+</head>
+<body>
+    <header>
+        <h2 id='header'> my movie list</h2>
+    </header>
+    <main>
+        <section>
+            <fieldset>
+                <legend>
+                    add new movies
+                </legend><br><br>
+            <form id = "form">
+                <label for="moviename">movie-name</label><br>
+                <input type="text" name="moviename" id="moviename" class = 'input'><br><br>
+                <label for="moviecategory">movie-category</label><br>
+                <select name="moviecategory" id="moviecategory" class = 'input'>
+                    <option value="Action action.png">Action</option>
+                    <option value="Adventure adventure.png">Adventure</option>
+                    <option value="Animation animation.png">Animation</option>
+                    <option value="Comedy comedy.png">Comedy</option>
+                    <option value="Detective detective.png">Detective</option>
+                    <option value="Fantasy fantasy.png">Fantasy</option>
+                    <option value="History history.png">History</option>
+                    <option value="Horror horror.png">Horror</option>
+                    <option value="Musical musical.png">Musical</option>
+                    <option value="Pirate pirate.png">Pirate</option>
+                    <option value="Romantic romantic.png">Romantic</option>
+                    <option value="SCI-FI sci-fi.png">SCI-FI</option>
+                    <option value="War war.png">War</option>
+                    <option value="Western western.png">Western</option>
+                </select><br><br>
+                <label for="issueyear">issue-year</label><br>
+                <input type="text" name="issueyear" id="issueyear" class = 'input'><br><br>
+                <input type="submit" id = 'submit1' value='save'>
+                <button onclick="myFunction()" id = 'submit2'>clear LS</button><br><br>
+
+            </form>
+            </fieldset>
+
+        </section>
+        <section id = 'table'></section>
+    </main>
+    <footer>
+       <p> all right reserved 2021 ASAC </p>
+    </footer>
+
+    <script src = 'app.js'></script>
+</body>
+</html>

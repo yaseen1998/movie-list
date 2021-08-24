@@ -1,0 +1,81 @@
+header{
+    background-color:#39A2DB ;
+    text-align: center;
+    height: 100px;
+}
+#header{
+    padding-top: 25px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+fieldset{
+    border-style:dashed;
+    border-width: 2px;
+    border-color: black;
+}
+main{
+    margin: 200px;
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+tr{
+  display: grid;
+  grid-template-columns: 50px 100px 100px 100px 100px;
+  height:80px;
+  margin-top: 10px;
+  background-color: #71c7ec;
+
+}
+tr td{
+    padding-top: 20px;
+}
+.input{
+    width: 250px;
+}
+#table{
+    margin-left: 50px;
+}
+tr:nth-child(1){
+background-color: #053742;
+}
+tr:nth-child(2){
+    background-color: #71c7ec;
+    }
+    tr:nth-child(3){
+        background-color: #A2DBFA;
+        }
+        tr:nth-child(4){
+            background-color: #77ACF1;
+            }
+            tr:nth-child(5){
+                background-color: #a10909;
+                }
+                tr:nth-child(6){
+                    background-color: #71c7ec;
+                    }
+
+#submit1{
+    background-color:#71c7ec;
+    color:white ;
+}
+#submit2{
+    background-color:#a10909;
+    color:white ;
+}
+footer{
+    background-color:#053742 ;
+    text-align: center;
+    height: 50px;
+}
+footer p{
+    padding-top:12px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
